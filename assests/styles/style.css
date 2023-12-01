@@ -1,0 +1,215 @@
+body, *{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+   
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  
+}
+.right {
+     width: 780px;
+    height: 629px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 79px -170px / 91.944% 157.87% no-repeat;
+
+}
+
+.container{
+    position:absolute;
+    top: 0%;
+    width: 1200px;
+    margin: 0 auto;
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 32.4px */
+    
+
+
+}
+.feel {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 12px;
+    margin-left: 120px;
+}
+.nav {
+    display: flex;
+}
+.nav > li{
+    list-style-type: none;
+    margin-right: 48px;
+}
+
+.ui{
+    align-self: stretch;
+    color: var(--brand-yellow, #FDC435);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 59px;
+    margin-left: 120px;
+}
+.myname{
+    display: flex;
+    justify-content: wrap;
+    
+    width: 486px;
+    color: var(--Gray-1, #333);
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: auto; 
+    margin-left: 120px;
+    margin: top 12px;
+    margin-right: 14px;
+
+}
+.shorttext {
+    display: flex;
+    justify-content:wrap ;
+    width: 486px;
+    color: var(--Gray-3, #828282);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+    margin-left: 120px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.boxpl{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    margin-left: 120px;
+}
+.Pro {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: var(--brand-yellow, #FDC435);
+
+}
+.linked {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 2px solid var(--bg-line, #25282B);
+}
+.left{
+    margin-right: 114px;
+
+}
+/* @media only screen and (max-width: 600px) {
+    .feel{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  } */ 
+/*section of my project with layout*/
+ .Sproject {
+    margin: 773px 326px 232px 226px;
+    width: 992px;
+    /* height: 892px; */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  header text My Project
+.c2project{
+    color: var(--font-high-emphasis, #25282B);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+}
+.myproject{
+    width: 992px;
+    height: 892px;
+    display: inline-flex;
+    flex-direction: row
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.leftproject{
+    display: flex;
+    width: 496px;
+    height: 524px;
+    padding: 146.5px 38.881px 145.5px 50.441px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.projectname{
+    width: 406.678px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 50px;
+}
+.myprojectname{
+    align-self: stretch;
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 60px */
+    
+
+}
+.created{
+    align-self: stretch;
+    color: var(--font-medium-emphasis, #828282);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.boxproject{
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 24px;
+    border: 1px solid var(--font-high-emphasis, #25282B);
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+.rightproject{
+    width: 496px;
+    height: 892px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -162.84px -310.132px / 132.831% 187.859% no-repeat;
+
+}
